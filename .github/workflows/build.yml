@@ -48,7 +48,7 @@ jobs:
           path: panda-hide.kpm
 
   release:
-    if: startsWith(github.ref, 'refs/tags/v')
+    #if: startsWith(github.ref, 'refs/tags/v')
     needs: build
     runs-on: ubuntu-latest
 
